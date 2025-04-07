@@ -9,7 +9,7 @@ March 30, 2025.
 Course:
 ITT103 
 
-GitHub URL: https://github.com/KylahT42/POS-system
+GitHub URL: https://github.com/KylahT42/POS-system.git
 
 Purpose of Code:
 The following features are built into this Point-of-Sale (POS) system to handle retail transactions: 
