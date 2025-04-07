@@ -1,0 +1,47 @@
+Authors:
+Horace Hunt
+Kyle Thomas
+Kylah Thomas
+
+Date Created:
+March 30, 2025.
+
+Course:
+ITT103 
+
+GitHub URL: https://github.com/KylahT42/POS-system
+
+Purpose of Code:
+The following features are built into this Point-of-Sale (POS) system to handle retail transactions: 
+•	Monitoring the inventory of products and managing shopping carts 
+•	Sales tax computations
+•	Applications for discount
+•	 Generating receipts and sending out low-stock notifications
+
+How to Run Program:
+1.First, requirements installed Python.
+2.Save the code as a 'py' file.
+3. Execute using the command prompt or terminal: python pos_system.py
+4. Adhere to menu instructions (1–5) to:
+   -Add or remove items
+   -View cart
+   -View low stock
+   -The checkout process
+   -View Product list
+   -Exit system		
+   
+Required Modifications:
+1. Add current inventory to product catalog lines 1–10. 
+2. Modify the tax rate (line 65) to reflect local conditions. 
+3. Adjust the discount thresholds (line 68) as necessary. 
+4. Add the company name to the receipt heading (line 91). 
+5. Modify line 101's low-stock criteria to reflect inventory requirements. NEEDED. 
+
+Limitations and assumptions:
+-The product names are case-insensitive. Lack of database permanence and insensitivity when the application ends, the data is reset.
+-The format is in single currency (USD); the maximum discount for large purchases (>$5000) is 5%.
+- Only integer amounts (no fractional items)
+-Lack of a user authentication system; simple error correction for incorrect inputs
+- One terminal only (no support for multiple users)
+
+
